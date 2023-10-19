@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AD637422AE1A8AF009A6C1F /* InnerZenApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6AD637472AE1A8AF009A6C1F /* InnerZenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */; };
+		6AD637492AE1A8AF009A6C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637482AE1A8AF009A6C1F /* ContentView.swift */; };
+		6AD6374B2AE1A8B0009A6C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6374A2AE1A8B0009A6C1F /* Assets.xcassets */; };
+		6AD6374E2AE1A8B0009A6C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6374D2AE1A8B0009A6C1F /* Preview Assets.xcassets */; };
+		6AD637582AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637572AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift */; };
+		6AD637622AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */; };
+		6AD637642AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD637432AE1A8AF009A6C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD637352AE1A8AF009A6C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD637402AE1A8AF009A6C1F;
+			remoteInfo = "InnerZenApp Watch App";
+		};
+		6AD637542AE1A8B0009A6C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD637352AE1A8AF009A6C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD637402AE1A8AF009A6C1F;
+			remoteInfo = "InnerZenApp Watch App";
+		};
+		6AD6375E2AE1A8B0009A6C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD637352AE1A8AF009A6C1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD637402AE1A8AF009A6C1F;
+			remoteInfo = "InnerZenApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AD6376A2AE1A8B0009A6C1F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6AD637422AE1A8AF009A6C1F /* InnerZenApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AD6373B2AE1A8AF009A6C1F /* InnerZenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerZenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InnerZenApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenAppApp.swift; sourceTree = "<group>"; };
+		6AD637482AE1A8AF009A6C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AD6374A2AE1A8B0009A6C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD6374D2AE1A8B0009A6C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AD637532AE1A8B0009A6C1F /* InnerZenApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InnerZenApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD637572AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		6AD6375D2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InnerZenApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD6373E2AE1A8AF009A6C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD637502AE1A8B0009A6C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6375A2AE1A8B0009A6C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD637342AE1A8AF009A6C1F = {
+			isa = PBXGroup;
+			children = (
+				6AD637452AE1A8AF009A6C1F /* InnerZenApp Watch App */,
+				6AD637562AE1A8B0009A6C1F /* InnerZenApp Watch AppTests */,
+				6AD637602AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests */,
+				6AD6373C2AE1A8AF009A6C1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD6373C2AE1A8AF009A6C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6373B2AE1A8AF009A6C1F /* InnerZenApp.app */,
+				6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */,
+				6AD637532AE1A8B0009A6C1F /* InnerZenApp Watch AppTests.xctest */,
+				6AD6375D2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD637452AE1A8AF009A6C1F /* InnerZenApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */,
+				6AD637482AE1A8AF009A6C1F /* ContentView.swift */,
+				6AD6374A2AE1A8B0009A6C1F /* Assets.xcassets */,
+				6AD6374C2AE1A8B0009A6C1F /* Preview Content */,
+			);
+			path = "InnerZenApp Watch App";
+			sourceTree = "<group>";
+		};
+		6AD6374C2AE1A8B0009A6C1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6374D2AE1A8B0009A6C1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AD637562AE1A8B0009A6C1F /* InnerZenApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD637572AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift */,
+			);
+			path = "InnerZenApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6AD637602AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */,
+				6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "InnerZenApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD6373A2AE1A8AF009A6C1F /* InnerZenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD6376B2AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp" */;
+			buildPhases = (
+				6AD637392AE1A8AF009A6C1F /* Resources */,
+				6AD6376A2AE1A8B0009A6C1F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD637442AE1A8AF009A6C1F /* PBXTargetDependency */,
+			);
+			name = InnerZenApp;
+			productName = InnerZenApp;
+			productReference = 6AD6373B2AE1A8AF009A6C1F /* InnerZenApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6AD637402AE1A8AF009A6C1F /* InnerZenApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD637672AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch App" */;
+			buildPhases = (
+				6AD6373D2AE1A8AF009A6C1F /* Sources */,
+				6AD6373E2AE1A8AF009A6C1F /* Frameworks */,
+				6AD6373F2AE1A8AF009A6C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InnerZenApp Watch App";
+			productName = "InnerZenApp Watch App";
+			productReference = 6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AD637522AE1A8B0009A6C1F /* InnerZenApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD6376E2AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch AppTests" */;
+			buildPhases = (
+				6AD6374F2AE1A8B0009A6C1F /* Sources */,
+				6AD637502AE1A8B0009A6C1F /* Frameworks */,
+				6AD637512AE1A8B0009A6C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD637552AE1A8B0009A6C1F /* PBXTargetDependency */,
+			);
+			name = "InnerZenApp Watch AppTests";
+			productName = "InnerZenApp Watch AppTests";
+			productReference = 6AD637532AE1A8B0009A6C1F /* InnerZenApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AD6375C2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD637712AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch AppUITests" */;
+			buildPhases = (
+				6AD637592AE1A8B0009A6C1F /* Sources */,
+				6AD6375A2AE1A8B0009A6C1F /* Frameworks */,
+				6AD6375B2AE1A8B0009A6C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD6375F2AE1A8B0009A6C1F /* PBXTargetDependency */,
+			);
+			name = "InnerZenApp Watch AppUITests";
+			productName = "InnerZenApp Watch AppUITests";
+			productReference = 6AD6375D2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD637352AE1A8AF009A6C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6AD6373A2AE1A8AF009A6C1F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6AD637402AE1A8AF009A6C1F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6AD637522AE1A8B0009A6C1F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6AD637402AE1A8AF009A6C1F;
+					};
+					6AD6375C2AE1A8B0009A6C1F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6AD637402AE1A8AF009A6C1F;
+					};
+				};
+			};
+			buildConfigurationList = 6AD637382AE1A8AF009A6C1F /* Build configuration list for PBXProject "InnerZenApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD637342AE1A8AF009A6C1F;
+			productRefGroup = 6AD6373C2AE1A8AF009A6C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD6373A2AE1A8AF009A6C1F /* InnerZenApp */,
+				6AD637402AE1A8AF009A6C1F /* InnerZenApp Watch App */,
+				6AD637522AE1A8B0009A6C1F /* InnerZenApp Watch AppTests */,
+				6AD6375C2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD637392AE1A8AF009A6C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6373F2AE1A8AF009A6C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD6374E2AE1A8B0009A6C1F /* Preview Assets.xcassets in Resources */,
+				6AD6374B2AE1A8B0009A6C1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD637512AE1A8B0009A6C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6375B2AE1A8B0009A6C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD6373D2AE1A8AF009A6C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD637492AE1A8AF009A6C1F /* ContentView.swift in Sources */,
+				6AD637472AE1A8AF009A6C1F /* InnerZenAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD6374F2AE1A8B0009A6C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD637582AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD637592AE1A8B0009A6C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD637622AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift in Sources */,
+				6AD637642AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD637442AE1A8AF009A6C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD637402AE1A8AF009A6C1F /* InnerZenApp Watch App */;
+			targetProxy = 6AD637432AE1A8AF009A6C1F /* PBXContainerItemProxy */;
+		};
+		6AD637552AE1A8B0009A6C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD637402AE1A8AF009A6C1F /* InnerZenApp Watch App */;
+			targetProxy = 6AD637542AE1A8B0009A6C1F /* PBXContainerItemProxy */;
+		};
+		6AD6375F2AE1A8B0009A6C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD637402AE1A8AF009A6C1F /* InnerZenApp Watch App */;
+			targetProxy = 6AD6375E2AE1A8B0009A6C1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AD637652AE1A8B0009A6C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD637662AE1A8B0009A6C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6AD637682AE1A8B0009A6C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerZenApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = InnerZenApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SouthEastTechProgramming.InnerZenApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6AD637692AE1A8B0009A6C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InnerZenApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = InnerZenApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SouthEastTechProgramming.InnerZenApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6AD6376C2AE1A8B0009A6C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				INFOPLIST_KEY_CFBundleDisplayName = InnerZenApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SouthEastTechProgramming.InnerZenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AD6376D2AE1A8B0009A6C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				INFOPLIST_KEY_CFBundleDisplayName = InnerZenApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SouthEastTechProgramming.InnerZenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD6376F2AE1A8B0009A6C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SouthEastTechProgramming.InnerZenApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnerZenApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnerZenApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6AD637702AE1A8B0009A6C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SouthEastTechProgramming.InnerZenApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InnerZenApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InnerZenApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6AD637722AE1A8B0009A6C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SouthEastTechProgramming.InnerZenApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "InnerZenApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6AD637732AE1A8B0009A6C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WT8J4F9HU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SouthEastTechProgramming.InnerZenApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "InnerZenApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD637382AE1A8AF009A6C1F /* Build configuration list for PBXProject "InnerZenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD637652AE1A8B0009A6C1F /* Debug */,
+				6AD637662AE1A8B0009A6C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD637672AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD637682AE1A8B0009A6C1F /* Debug */,
+				6AD637692AE1A8B0009A6C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD6376B2AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD6376C2AE1A8B0009A6C1F /* Debug */,
+				6AD6376D2AE1A8B0009A6C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD6376E2AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD6376F2AE1A8B0009A6C1F /* Debug */,
+				6AD637702AE1A8B0009A6C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD637712AE1A8B0009A6C1F /* Build configuration list for PBXNativeTarget "InnerZenApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD637722AE1A8B0009A6C1F /* Debug */,
+				6AD637732AE1A8B0009A6C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD637352AE1A8AF009A6C1F /* Project object */;
+}
