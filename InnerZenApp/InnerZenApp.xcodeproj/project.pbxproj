@@ -15,6 +15,8 @@
 		6AD637582AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637572AE1A8B0009A6C1F /* InnerZenApp_Watch_AppTests.swift */; };
 		6AD637622AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */; };
 		6AD637642AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */; };
+		6AE65EEE2AEAB2C600C82104 /* mindfulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EED2AEAB2C600C82104 /* mindfulView.swift */; };
+		6AE65EF02AEAB2DD00C82104 /* breathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EEF2AEAB2DC00C82104 /* breathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		6AD6375D2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InnerZenApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AE65EED2AEAB2C600C82104 /* mindfulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindfulView.swift; sourceTree = "<group>"; };
+		6AE65EEF2AEAB2DC00C82104 /* breathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */,
+				6AE65EED2AEAB2C600C82104 /* mindfulView.swift */,
+				6AE65EEF2AEAB2DC00C82104 /* breathView.swift */,
 				6AD637482AE1A8AF009A6C1F /* ContentView.swift */,
 				6AD6374A2AE1A8B0009A6C1F /* Assets.xcassets */,
 				6AD6374C2AE1A8B0009A6C1F /* Preview Content */,
@@ -309,8 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE65EF02AEAB2DD00C82104 /* breathView.swift in Sources */,
 				6AD637492AE1A8AF009A6C1F /* ContentView.swift in Sources */,
 				6AD637472AE1A8AF009A6C1F /* InnerZenAppApp.swift in Sources */,
+				6AE65EEE2AEAB2C600C82104 /* mindfulView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
