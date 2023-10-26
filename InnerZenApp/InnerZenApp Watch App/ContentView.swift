@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  InnerZenApp Watch App
 //
-//  Created by Tony Baas, Reaenn Wiebers on 10/19/23.
+//  Created by Tony Baas, Reaenn Wiebers, Rohan Basnet on 10/19/23.
 //  This is our InnerZen app which is just an app to get back
 //  in touch with yourself
 //
