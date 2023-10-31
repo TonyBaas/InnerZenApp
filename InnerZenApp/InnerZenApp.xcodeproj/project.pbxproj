@@ -69,7 +69,7 @@
 		6AD6375D2AE1A8B0009A6C1F /* InnerZenApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InnerZenApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD637612AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6AD637632AE1A8B0009A6C1F /* InnerZenApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6AE65EED2AEAB2C600C82104 /* mindfulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindfulView.swift; sourceTree = "<group>"; };
+		6AE65EED2AEAB2C600C82104 /* mindfulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindfulView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		6AE65EEF2AEAB2DC00C82104 /* breathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
