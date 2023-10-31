@@ -2,14 +2,15 @@
 //  mindfulView.swift
 //  InnerZenApp Watch App
 //
-//  Created by Tony Baas on 10/26/23.
-//
+//  Created by Reaenn Wiebers on 10/27/23.
+// This is the mindful view where the user can take a short quiz
+// store the data, and the have it to look back on
 
 import SwiftUI
 
 struct mindfulView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Label("Mood", systemImage: "theatermasks")
     }
 }
 
