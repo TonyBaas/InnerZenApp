@@ -9,19 +9,26 @@
 import SwiftUI
 
 struct mindfulView: View {
+
     @State var timeRemaining = 60
-        let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    func start(){
+        timeRemaining = 60
+    }
                     
     var body: some View {
         Label("Mood", systemImage: "theatermasks")
         Label("Word", systemImage: "brain")
         Label("", systemImage: "")
-        Text("\(timeRemaining)")
-            .onReceive(timer) { _ in
-                if timeRemaining > 0 {
-                    timeRemaining -= 1
+        Button(action: start){
+            Text("\(timeRemaining)")
+                .onReceive(timer) { _ in
+                    if timeRemaining > 0 {
+                        timeRemaining -= 1
+                    }
                 }
-            }
+        }
     }
 }
 
