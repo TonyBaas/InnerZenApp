@@ -12,15 +12,27 @@ struct mindfulView: View {
 
     @State var timeRemaining = 60
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @State private var words = ["Peace", "Acceptance", "Confidence","Zen","Dead Bird","Gratitude"]
+    
+    @State private var currentWord = "Random Word"
     
     func start(){
         timeRemaining = 60
     }
-                    
+    //updating words for random focus word
+    func updateCurrentWord() {
+        let randomIndex = Int.random(in: 0..<words.count)
+        currentWord = words[randomIndex]
+    }
+                
     var body: some View {
         Label("Mood", systemImage: "theatermasks")
-        Label("Word", systemImage: "brain")
+        Label("Word", systemImage: "brain");                    Text(currentWord)
+            .onTapGesture {
+                updateCurrentWord()
+            }
         Label("", systemImage: "")
+        //timer for mindful moment
         Button(action: start){
             Text("\(timeRemaining)")
                 .onReceive(timer) { _ in
