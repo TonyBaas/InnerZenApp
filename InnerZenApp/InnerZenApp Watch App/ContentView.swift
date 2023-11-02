@@ -38,11 +38,17 @@ struct ContentView: View {
                         .bold()
                 }
                 NavigationLink(destination: mindfulView()) {
-                    Text("")
-                }
-                 // Adjust the corner radius as needed
-                NavigationLink(destination: breathView()) {
+                    VStack{
+                        Text("Mindful Moment")
+                            .font(.system(size: 13.5))
+                            .bold()
+                    }
                     
+                }
+                NavigationLink(destination: breathView()) {
+                    Text("Take a breath")
+                        .font(.system(size: 13.5))
+                        .bold()
                 }
             }
         }
