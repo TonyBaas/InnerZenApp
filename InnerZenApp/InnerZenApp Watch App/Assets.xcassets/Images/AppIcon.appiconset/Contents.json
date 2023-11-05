@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Icon for InnerZen.001.png",
       "idiom" : "universal",
       "platform" : "watchos",
       "size" : "1024x1024"

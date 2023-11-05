@@ -23,21 +23,32 @@ struct ContentView: View {
             VStack{
                 HStack{
                     Text("InnerZen")
+                        .font(.system(size: 20))
+                        .bold()
+                        .foregroundColor(Color.theme.accent)
                     Text("                Logo")
+                    
                 }
                 NavigationLink(destination: EmptyView()) {
                     Text(currentQuote)
                         .onTapGesture {
                             updateCurrentQuote()
                         }
-                        .font(.system(size: 13))
+                        .font(.system(size: 13.5))
+                        .bold()
                 }
                 NavigationLink(destination: mindfulView()) {
-                    Text("")
-                }
-                 // Adjust the corner radius as needed
-                NavigationLink(destination: breathView()) {
+                    VStack{
+                        Text("Mindful Moment")
+                            .font(.system(size: 13.5))
+                            .bold()
+                    }
                     
+                }
+                NavigationLink(destination: breathView()) {
+                    Text("Take a breath")
+                        .font(.system(size: 13.5))
+                        .bold()
                 }
             }
         }
