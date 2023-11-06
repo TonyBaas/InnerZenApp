@@ -22,12 +22,10 @@ struct ContentView: View {
         NavigationView {
             VStack{
                 HStack{
-                    Text("InnerZen")
+                    Text("InnerZen                              ")
                         .font(.system(size: 20))
                         .bold()
                         .foregroundColor(Color.theme.accent)
-                    Text("                Logo")
-                    
                 }
                 NavigationLink(destination: EmptyView()) {
                     Text(currentQuote)
@@ -43,7 +41,6 @@ struct ContentView: View {
                             .font(.system(size: 13.5))
                             .bold()
                     }
-                    
                 }
                 NavigationLink(destination: breathView()) {
                     Text("Take a breath")
