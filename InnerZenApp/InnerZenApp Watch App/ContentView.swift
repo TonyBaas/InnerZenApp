@@ -14,7 +14,6 @@ struct ContentView: View {
     
     @State private var quotes = ["Everything is Fine.", "Keep it off campus guys.", "Read the writing on the wall."]
     @State private var isShuffling = true
-    
     @State private var currentQuote = "Random Quote"
     
     var body: some View {
@@ -34,18 +33,28 @@ struct ContentView: View {
                         }
                         .font(.system(size: 13.5))
                         .bold()
+                        .foregroundColor(Color.theme.accent2)
                 }
                 NavigationLink(destination: mindfulView()) {
-                    VStack{
-                        Text("Mindful Moment")
+                    HStack{
+                        Image("MindfulMomentIcon")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Text("          Mindful Moment")
                             .font(.system(size: 13.5))
                             .bold()
                     }
                 }
                 NavigationLink(destination: breathView()) {
-                    Text("Take a breath")
-                        .font(.system(size: 13.5))
-                        .bold()
+                    HStack{
+                        Image("BreathIcon")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Text("                 Take a breath")
+                            .font(.system(size: 13.5))
+                            .bold()
+                    }
+                    
                 }
             }
         }
