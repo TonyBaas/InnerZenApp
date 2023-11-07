@@ -11,7 +11,6 @@ import SwiftUI
 
 
 struct ContentView: View {
-    
     @State private var quotes = ["Everything is Fine.", "Keep it off campus guys.", "Read the writing on the wall."]
     @State private var isShuffling = true
     @State private var currentQuote = "Random Quote"
@@ -75,9 +74,6 @@ struct ContentView: View {
         }
     }
 }
-
-
-
 
 #Preview {
     ContentView()
