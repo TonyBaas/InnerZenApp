@@ -31,8 +31,11 @@ struct mindfulView: View {
     }
                 
     var body: some View {
-        
-        Label("Mood", systemImage: "theatermasks")
+        HStack{
+            Image(systemName:"theatermasks")
+                .foregroundColor(Color.theme.accent);
+            Text("Mood")
+        }
         HStack{
             
             TextField(text: $text) {
@@ -41,11 +44,14 @@ struct mindfulView: View {
             
         }
         HStack{
-            Label("Word:", systemImage: "brain");                    Text(currentWord)
+            Image(systemName:"brain")
+                .foregroundColor(Color.theme.accent);
+            Text("Word:")
+            Text(currentWord)
+                .foregroundColor(Color.theme.accent2)
                 .onTapGesture {
                     updateCurrentWord()
                 }
-            Label("", systemImage: "")
         }
             
             //timer for mindful moment
