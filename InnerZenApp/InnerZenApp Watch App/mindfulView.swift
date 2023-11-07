@@ -39,7 +39,6 @@ struct mindfulView: View {
         HStack{
             
             TextField(text: $text) {
-                Text("Tap, touch and hold, or swipe left to rename")
             }.focused($isFocused)
             
         }
