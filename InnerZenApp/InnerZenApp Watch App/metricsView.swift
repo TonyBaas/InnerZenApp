@@ -8,28 +8,27 @@
 import SwiftUI
 
 struct metricsView: View {
-    //Variables
-    @State private var timeRemaining = 0
-    @State private var isTimerRunning = false
+    @Binding var isTimerRunning: Bool
+    @Binding var timeRemaining: Int
+    @State var startAnimation = true
     
-    //Creates a timer variable that increases the
-    //timer by 1 second
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
-    //Function that toggles the timer from starting or stopping
     func start() {
         isTimerRunning.toggle()
+    }
+    
+    func resetTimer() {
+            timeRemaining = 0
+            isTimerRunning = false
     }
 
     var body: some View {
         VStack(alignment: .leading) {
-            //Label for timer
             Text("Timer")
-                //Formatting
                 .font(.system(size: 20))
                 .bold()
                 .frame(maxWidth: .infinity)
-            //Button for the timer to start or pause
             Button(action: start) {
                 Text("\(timeRemaining)")
                     .onReceive(timer) { _ in
@@ -37,33 +36,27 @@ struct metricsView: View {
                             timeRemaining += 1
                         }
                     }
-            }   //Formatting
-                .font(.system(size: 20))
-                .bold()
-                .foregroundColor(Color.theme.accent)
+            }
+            .font(.system(size: 20))
+            .bold()
+            .foregroundColor(Color.theme.accent)
 
-            //Label for heart rate
-            Text(
-                "Heart Rate"
-            )
-                //Formatting
+            Text("Heart Rate")
                 .font(.system(size: 20))
                 .bold()
                 .frame(maxWidth: .infinity)
-            
-            //Button for heart rate
+
             Button(action: start) {
                 Text("100")
             }
-                //Formatting
-                .font(.system(size: 20))
-                .bold()
-                .foregroundColor(Color.theme.accent)
-
+            .font(.system(size: 20))
+            .bold()
+            .foregroundColor(Color.theme.accent)
         }
     }
 }
 
+
 #Preview {
-    metricsView()
+    metricsView(isTimerRunning: .constant(true), timeRemaining: .constant(0))
 }

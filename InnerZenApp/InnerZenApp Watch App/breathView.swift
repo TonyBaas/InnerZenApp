@@ -11,6 +11,8 @@ struct breathView: View {
     //Declare variable named selection
     //Set the selection to the metrics tab by default
     @State private var selection: Tab = .metrics
+    @State private var isTimerRunning = false
+    @State private var timeRemaining = 0
 
     //Enum named tab with two cases
     enum Tab {
@@ -22,9 +24,9 @@ struct breathView: View {
         //controls and metrics tab.
         TabView(selection: $selection) {
             //Gets the view from the controlsView()
-            controlsView().tag(Tab.controls)
+            controlsView(isTimerRunning: $isTimerRunning, timeRemaining: $timeRemaining).tag(Tab.controls)
             //Gets the view from the metricsView()
-            metricsView().tag(Tab.metrics)
+            metricsView(isTimerRunning: $isTimerRunning, timeRemaining: $timeRemaining).tag(Tab.metrics)
         }
     }
 }
