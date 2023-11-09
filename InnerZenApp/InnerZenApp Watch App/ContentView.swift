@@ -38,7 +38,7 @@ struct ContentView: View {
                         .onTapGesture {
                             updateCurrentQuote()
                         }
-                        .font(.system(size: 13.5))
+                        .font(.system(size: 12))
                         .bold()
                         .foregroundColor(Color.theme.accent2)
                 }
@@ -50,7 +50,7 @@ struct ContentView: View {
                             .resizable()
                             .frame(width: 20, height: 20)
                         Text("          Mindful Moment")
-                            .font(.system(size: 13.5))
+                            .font(.system(size: 12))
                             .bold()
                     }
                 }
@@ -61,8 +61,8 @@ struct ContentView: View {
                         Image("BreathIcon")
                             .resizable()
                             .frame(width: 20, height: 20)
-                        Text("                 Take a breath")
-                            .font(.system(size: 13.5))
+                        Text("               Take a breath")
+                            .font(.system(size: 12))
                             .bold()
                     }
                     

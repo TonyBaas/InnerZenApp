@@ -26,7 +26,7 @@ struct metricsView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Breath slowly")
-                .font(.system(size: 20))
+                .font(.system(size: 17))
                 .bold()
                 .frame(maxWidth: .infinity)
                 .foregroundColor(Color.theme.accent2)
