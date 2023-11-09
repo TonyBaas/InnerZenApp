@@ -31,21 +31,29 @@ struct mindfulView: View {
     }
                 
     var body: some View {
-        
-        Label("Mood", systemImage: "theatermasks")
+        //this is the mood label
+        HStack{
+            Image(systemName:"theatermasks")
+                .foregroundColor(Color.theme.accent);
+            Text("Mood")
+        }
+        //this is the mood text field
         HStack{
             
             TextField(text: $text) {
-                Text("Tap, touch and hold, or swipe left to rename")
             }.focused($isFocused)
             
         }
+        //this the focus word section where you tap on the word and it generates a random word to focus on during your mindful moment
         HStack{
-            Label("Word:", systemImage: "brain");                    Text(currentWord)
+            Image(systemName:"brain")
+                .foregroundColor(Color.theme.accent);
+            Text("Word:")
+            Text(currentWord)
+                .foregroundColor(Color.theme.accent2)
                 .onTapGesture {
                     updateCurrentWord()
                 }
-            Label("", systemImage: "")
         }
             
             //timer for mindful moment
