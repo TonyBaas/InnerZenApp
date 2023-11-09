@@ -82,7 +82,7 @@ struct controlsView: View {
             switch buttonState {
                 case .pause: return .yellow // Change to the desired color for the "Pause" state
                 case .continued: return .green // Change to the desired color for the "Continue" state
-                case .play: return .blue // Change to the desired color for the "Play" state
+            case .play: return Color.theme.accent // Change to the desired color for the "Play" state
             }
         }
 

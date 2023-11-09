@@ -12,7 +12,7 @@ import SwiftUI
 
 struct ContentView: View {
     // This creates an arry with quotes in it
-    @State private var quotes = ["Everything is Fine.", "Keep it off campus guys.", "Read the writing on the wall."]
+    @State private var quotes = ["Everything is Fine.", "Keep it off campus guys.", "Read the writing on the wall.", "The way you speak to yourself matters", "The first and best victory is to conquer self.", "Be happy in the moment. That is enough.", "Quiet the mind, and the soul will speak."]
     
     // This sets shuffling to true
     @State private var isShuffling = true

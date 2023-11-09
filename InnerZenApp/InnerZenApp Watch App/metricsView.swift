@@ -25,8 +25,13 @@ struct metricsView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Timer")
+            Text("Breath slowly")
                 .font(.system(size: 20))
+                .bold()
+                .frame(maxWidth: .infinity)
+                .foregroundColor(Color.theme.accent2)
+            Text("Timer")
+                .font(.system(size: 15))
                 .bold()
                 .frame(maxWidth: .infinity)
             Button(action: start) {
@@ -37,19 +42,19 @@ struct metricsView: View {
                         }
                     }
             }
-            .font(.system(size: 20))
+            .font(.system(size: 30))
             .bold()
             .foregroundColor(Color.theme.accent)
 
             Text("Heart Rate")
-                .font(.system(size: 20))
+                .font(.system(size: 15))
                 .bold()
                 .frame(maxWidth: .infinity)
 
             Button(action: start) {
                 Text("100")
             }
-            .font(.system(size: 20))
+            .font(.system(size: 30))
             .bold()
             .foregroundColor(Color.theme.accent)
         }

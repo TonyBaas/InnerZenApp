@@ -46,7 +46,9 @@ struct mindfulView: View {
         }
         //this the focus word section where you tap on the word and it generates a random word to focus on during your mindful moment
         HStack{
-            Image(systemName:"brain")
+            Image("MindfulMomentIcon")
+                .resizable()
+                .frame(width: 20, height: 20)
                 .foregroundColor(Color.theme.accent);
             Text("Word:")
             Text(currentWord)
