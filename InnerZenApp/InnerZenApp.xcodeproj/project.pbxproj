@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A2B34E82AFCA31600BFFED2 /* controlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B34E72AFCA31600BFFED2 /* controlsView.swift */; };
+		6A2B34EA2AFCA36300BFFED2 /* metricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B34E92AFCA36300BFFED2 /* metricsView.swift */; };
 		6AD637422AE1A8AF009A6C1F /* InnerZenApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6AD637472AE1A8AF009A6C1F /* InnerZenAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */; };
 		6AD637492AE1A8AF009A6C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD637482AE1A8AF009A6C1F /* ContentView.swift */; };
@@ -59,6 +61,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A2B34E72AFCA31600BFFED2 /* controlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlsView.swift; sourceTree = "<group>"; };
+		6A2B34E92AFCA36300BFFED2 /* metricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metricsView.swift; sourceTree = "<group>"; };
 		6AD6373B2AE1A8AF009A6C1F /* InnerZenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnerZenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD637412AE1A8AF009A6C1F /* InnerZenApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InnerZenApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerZenAppApp.swift; sourceTree = "<group>"; };
@@ -124,7 +128,9 @@
 		6AD637452AE1A8AF009A6C1F /* InnerZenApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B34E72AFCA31600BFFED2 /* controlsView.swift */,
 				6AD637462AE1A8AF009A6C1F /* InnerZenAppApp.swift */,
+				6A2B34E92AFCA36300BFFED2 /* metricsView.swift */,
 				6AE65EED2AEAB2C600C82104 /* mindfulView.swift */,
 				6AE65EEF2AEAB2DC00C82104 /* breathView.swift */,
 				6AEA1A782AF3FDD000F53F2B /* Extentions */,
@@ -329,7 +335,9 @@
 				6AE65EF02AEAB2DD00C82104 /* breathView.swift in Sources */,
 				6AD637492AE1A8AF009A6C1F /* ContentView.swift in Sources */,
 				6AD637472AE1A8AF009A6C1F /* InnerZenAppApp.swift in Sources */,
+				6A2B34EA2AFCA36300BFFED2 /* metricsView.swift in Sources */,
 				6AEA1A7A2AF3FE0500F53F2B /* Color.swift in Sources */,
+				6A2B34E82AFCA31600BFFED2 /* controlsView.swift in Sources */,
 				6AE65EEE2AEAB2C600C82104 /* mindfulView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
